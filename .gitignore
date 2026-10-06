@@ -1,0 +1,8 @@
+build/
+__pycache__/
+*.pyc
+# Never commit ROM images: the original is copyrighted, and every built
+# image contains it.
+*.nes
+rom/*
+!rom/README.md
